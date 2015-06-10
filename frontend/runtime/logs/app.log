@@ -1,0 +1,1830 @@
+2015-06-08 07:51:40 [::1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: rootChannelList' in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:61
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php(61): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'C:\\myenv\\apache...', 61, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\View.php(325): require('C:\\myenv\\apache...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->renderFile('C:\\myenv\\apache...', Array, Object(frontend\controllers\SiteController))
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(372): yii\base\Controller->renderContent('<div class="sit...')
+#5 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#6 [internal function]: frontend\controllers\SiteController->actionIndex()
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#11 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2015-06-08 07:51:40 [::1][-][-][info][application] $_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'PHPSESSID' => 'f91t3l17sgeiqfcfdipv7i3157'
+    '_csrf' => '69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dzluawm'
+    '__captcha/site/captchacount' => 1
+    '1c773da8fdf917d7a8c5cdd0634c1718Yii.CWebUser.flashcounters' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; PHPSESSID=f91t3l17sgeiqfcfdipv7i3157; _csrf=69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3322'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php/'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PATH_INFO' => '/'
+    'PATH_TRANSLATED' => 'C:\\myenv\\apache\\htdocs\\index.html'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php/'
+    'REQUEST_TIME_FLOAT' => 1433749900.518
+    'REQUEST_TIME' => 1433749900
+]
+2015-06-08 07:57:07 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#11 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#12 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#13 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#14 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#15 [internal function]: frontend\controllers\SiteController->actionSignup()
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#11 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#12 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#13 [internal function]: frontend\controllers\SiteController->actionSignup()
+#14 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#15 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2015-06-08 07:57:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'RHdpNUd6RDcJAwEAf0ozaDcuWHc2Szx1JUdaZg1CI3AwOFFjc00RVQ=='
+    'SignupForm' => [
+        'username' => 'admin110'
+        'email' => '234234234@qq.com'
+        'password' => 'admin110'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    '_csrf' => '69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub\";}'
+    'PHPSESSID' => 'f91t3l17sgeiqfcfdipv7i3157'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dzluawm'
+    '__captcha/site/captchacount' => 1
+    '1c773da8fdf917d7a8c5cdd0634c1718Yii.CWebUser.flashcounters' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '190'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; _csrf=69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub%22%3B%7D; PHPSESSID=f91t3l17sgeiqfcfdipv7i3157'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3364'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433750226.067
+    'REQUEST_TIME' => 1433750226
+]
+2015-06-08 07:58:53 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#11 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#12 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#13 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#14 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#15 [internal function]: frontend\controllers\SiteController->actionSignup()
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#11 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#12 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#13 [internal function]: frontend\controllers\SiteController->actionSignup()
+#14 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#15 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2015-06-08 07:58:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'UHlwN3VwRkgdDRgCTUAxFyMgQXUEQT4KMUlDZD9IIQ8kNkhhQUcTKg=='
+    'SignupForm' => [
+        'username' => 'admin110'
+        'email' => '234234234@qq.com'
+        'password' => 'amdin110'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    '_csrf' => '69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub\";}'
+    'PHPSESSID' => 'f91t3l17sgeiqfcfdipv7i3157'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'dzluawm'
+    '__captcha/site/captchacount' => 1
+    '1c773da8fdf917d7a8c5cdd0634c1718Yii.CWebUser.flashcounters' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '190'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; _csrf=69b6e5983e767e23b450e0f0d6c7da3bf944744701362164a739937ed7fb7d6ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Mth580w_sY1Bq1xBa03SJ8gGtO8V47Ub%22%3B%7D; PHPSESSID=f91t3l17sgeiqfcfdipv7i3157'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3372'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433750332.876
+    'REQUEST_TIME' => 1433750332
+]
+2015-06-08 08:33:44 [::1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\web\Application::setting' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\di\ServiceLocator.php(73): yii\base\Component->__get('setting')
+#1 C:\myenv\apache\htdocs\yii2_advanced\frontend\views\site\index.php(8): yii\di\ServiceLocator->__get('setting')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\View.php(325): require('C:\\myenv\\apache...')
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('C:\\myenv\\apache...', Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('C:\\myenv\\apache...', Array, Object(frontend\controllers\SiteController))
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(371): yii\base\View->render('index', Array, Object(frontend\controllers\SiteController))
+#6 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(70): yii\base\Controller->render('index')
+#7 [internal function]: frontend\controllers\SiteController->actionIndex()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#11 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('site/index', Array)
+#12 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#14 {main}
+2015-06-08 08:33:44 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    '_csrf' => 'c5d86d2aeb19b7e75ad87116ee953b97f529a1f75e6ea71548fa3c482b1c5049a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"dTrYj6e0sTQ1VZJIrlhfro0viaS5bF7H\";}'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'glk7r02p53ectmn715nvrrr0g1'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; _csrf=c5d86d2aeb19b7e75ad87116ee953b97f529a1f75e6ea71548fa3c482b1c5049a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22dTrYj6e0sTQ1VZJIrlhfro0viaS5bF7H%22%3B%7D; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=glk7r02p53ectmn715nvrrr0g1'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3617'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433752424.346
+    'REQUEST_TIME' => 1433752424
+]
+2015-06-08 08:38:48 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\site\index.php:166
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-08 08:38:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'glk7r02p53ectmn715nvrrr0g1'
+    '_csrf' => '4b93ffbf0a5b02a9fb0226dc5b8aa7446e9521c883de27dfa4304ac77792e469a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pMjP2YbmU_7lxXE-rE9K7TalD982Lttf\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=glk7r02p53ectmn715nvrrr0g1; _csrf=4b93ffbf0a5b02a9fb0226dc5b8aa7446e9521c883de27dfa4304ac77792e469a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pMjP2YbmU_7lxXE-rE9K7TalD982Lttf%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3644'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433752728.009
+    'REQUEST_TIME' => 1433752728
+]
+2015-06-08 09:06:18 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'NavBar' not found' in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\site\index.php:152
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-08 09:06:18 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+]
+
+$_SERVER = [
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5)'
+    'HTTP_HOST' => 'localhost'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3813'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433754378.724
+    'REQUEST_TIME' => 1433754378
+]
+2015-06-08 09:06:18 [::1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'NavBar' not found' in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\site\index.php:152
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-08 09:06:18 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'glk7r02p53ectmn715nvrrr0g1'
+    '_csrf' => '4b93ffbf0a5b02a9fb0226dc5b8aa7446e9521c883de27dfa4304ac77792e469a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pMjP2YbmU_7lxXE-rE9K7TalD982Lttf\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=glk7r02p53ectmn715nvrrr0g1; _csrf=4b93ffbf0a5b02a9fb0226dc5b8aa7446e9521c883de27dfa4304ac77792e469a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pMjP2YbmU_7lxXE-rE9K7TalD982Lttf%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '3814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433754378.809
+    'REQUEST_TIME' => 1433754378
+]
+2015-06-08 12:12:16 [::1][-][glk7r02p53ectmn715nvrrr0g1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Maximum execution time of 30 seconds exceeded' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Session.php:127
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-06-08 12:11:46 [::1][-][glk7r02p53ectmn715nvrrr0g1][info][application] $_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    '_csrf' => '329a469d02298a44e6261f304327bd0cafc1734e7954c6f9a80cfb3b702a89c3a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Mafm4DyY1kKkQcfZDRk1tRVcebl5BwQa\";}'
+    'PHPSESSID' => 'glk7r02p53ectmn715nvrrr0g1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'jeceua'
+    '__captcha/site/captchacount' => 1
+    '1c773da8fdf917d7a8c5cdd0634c1718Yii.CWebUser.flashcounters' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; _csrf=329a469d02298a44e6261f304327bd0cafc1734e7954c6f9a80cfb3b702a89c3a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Mafm4DyY1kKkQcfZDRk1tRVcebl5BwQa%22%3B%7D; PHPSESSID=glk7r02p53ectmn715nvrrr0g1'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '1062'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433765504.847
+    'REQUEST_TIME' => 1433765504
+]
+2015-06-08 15:10:15 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', '123456', NULL)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#11 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#12 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#13 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#14 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#15 [internal function]: frontend\controllers\SiteController->actionSignup()
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#19 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#20 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2advanced'' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Schema.php(444): yii\db\Connection->getSlavePdo()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('<span class="st...')
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(167): yii\db\Connection->quoteValue('<span class="st...')
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(797): yii\db\Command->getRawSql()
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Command.php(378): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\db\Query.php(363): yii\db\Command->queryScalar()
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\UniqueValidator.php(111): yii\db\Query->exists()
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\validators\Validator.php(240): yii\validators\UniqueValidator->validateAttribute(Object(frontend\models\SignupForm), '<span class="st...')
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\SignupForm), '[<span class="s...')
+#11 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\SignupForm.php(46): yii\base\Model->validate()
+#12 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php(123): frontend\models\SignupForm->signup()
+#13 [internal function]: frontend\controllers\SiteController->actionSignup()
+#14 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#15 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams('[<span class="s...')
+#16 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#17 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#18 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2015-06-08 15:10:13 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = [
+    '_csrf' => 'VVlFQkMucF9iKiYQO3o.MgQ8IhQFWl0JNGsOIAAfIx1gKigKE2U1KA=='
+    'SignupForm' => [
+        'username' => 'admin114'
+        'email' => 'admin@sohu.com'
+        'password' => 'admin110'
+    ]
+    'signup-button' => ''
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => '3h24sf908mqr3b9vqip4n2mkc0'
+    '_csrf' => 'f20cd9a359ded5ec8aeff7a1024afbab05e69bcf7414bbd13a72c49ee0f8e3d9a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"7scRxTNmQegVFt-Va2KbC1SB5smHPKEw\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '188'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_DNT' => '1'
+    'HTTP_REFERER' => 'http://localhost/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=3h24sf908mqr3b9vqip4n2mkc0; _csrf=f20cd9a359ded5ec8aeff7a1024afbab05e69bcf7414bbd13a72c49ee0f8e3d9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%227scRxTNmQegVFt-Va2KbC1SB5smHPKEw%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '4346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433776213.678
+    'REQUEST_TIME' => 1433776213
+]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              2015-06-09 03:22:42 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:70
+2015-06-09 03:22:37 [192.168.0.103][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '38096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820157.111
+    'REQUEST_TIME' => 1433820157
+]
+2015-06-09 03:22:42 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:22:37 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '38096'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820157.111
+    'REQUEST_TIME' => 1433820157
+]
+2015-06-09 03:23:19 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:116
+2015-06-09 03:23:19 [192.168.0.103][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '36038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820199.343
+    'REQUEST_TIME' => 1433820199
+]
+2015-06-09 03:23:19 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:19 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '36038'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820199.343
+    'REQUEST_TIME' => 1433820199
+]
+2015-06-09 03:23:26 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:110
+2015-06-09 03:23:26 [192.168.0.103][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820206.348
+    'REQUEST_TIME' => 1433820206
+]
+2015-06-09 03:23:27 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:26 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '54763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820206.348
+    'REQUEST_TIME' => 1433820206
+]
+2015-06-09 03:23:28 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:28 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_GET = [
+    'r' => 'site/captcha'
+    'v' => '55765c2eed5b2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => 'PHPSESSID=mavp8g955ikr11mc9724sthed1; _csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '49596'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcaptcha&v=55765c2eed5b2'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fcaptcha&v=55765c2eed5b2'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820208.282
+    'REQUEST_TIME' => 1433820208
+]
+2015-06-09 03:23:33 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:132
+2015-06-09 03:23:33 [192.168.0.103][-][-][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820213.149
+    'REQUEST_TIME' => 1433820213
+]
+2015-06-09 03:23:33 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:33 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820213.149
+    'REQUEST_TIME' => 1433820213
+]
+2015-06-09 03:23:37 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:85
+2015-06-09 03:23:37 [192.168.0.103][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820217.174
+    'REQUEST_TIME' => 1433820217
+]
+2015-06-09 03:23:37 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:37 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820217.174
+    'REQUEST_TIME' => 1433820217
+]
+2015-06-09 03:23:40 [192.168.0.103][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.0.103
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\views\layouts\main.php:220
+    in C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\SiteController.php:70
+2015-06-09 03:23:40 [192.168.0.103][-][-][info][application] $_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820220.263
+    'REQUEST_TIME' => 1433820220
+]
+2015-06-09 03:23:41 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:23:40 [192.168.0.103][-][mavp8g955ikr11mc9724sthed1][info][application] $_COOKIE = [
+    '_csrf' => '181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4FF_phEVmW-cNr8SQP82M5RRb78TEwFZ\";}'
+    '__utmt' => '1'
+    '__utma' => '254206408.1072745234.1433820198.1433820198.1433820198.1'
+    '__utmb' => '254206408.1.10.1433820198'
+    '__utmc' => '254206408'
+    '__utmz' => '254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'mavp8g955ikr11mc9724sthed1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'xalmth'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '192.168.0.101'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_COOKIE' => '_csrf=181d9514912cb6c0a0c9362c4ef6b509f3034245913d9fc6ac08f34ae1ebfaeba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224FF_phEVmW-cNr8SQP82M5RRb78TEwFZ%22%3B%7D; __utmt=1; __utma=254206408.1072745234.1433820198.1433820198.1433820198.1; __utmb=254206408.1.10.1433820198; __utmc=254206408; __utmz=254206408.1433820198.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=mavp8g955ikr11mc9724sthed1'
+    'HTTP_X_UCBROWSER_UA' => 'pf(Linux);la(zh-CN);re(AppleWebKit/534.31 (KHTML, like Gecko));dv(HUAWEI MT7-TL10 Build/HuaweiY310-5000);pr(UCBrowser/8.8.1.258);ov(Android 4.2.0);pi(480*762);ss(480*762);up(U3/0.8.0);er(U);bt(UM);pm(1);bv(0);nm(0);im(0);sr(0);nt(3);'
+    'HTTP_REFERER' => 'http://192.168.0.101/yii2_advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Linux; U; Android 4.2.0; zh-CN; HUAWEI MT7-TL10 Build/HuaweiY310-5000) AppleWebKit/534.31 (KHTML, like Gecko) UCBrowser/8.8.1.258 U3/0.8.0 Mobile Safari/534.31'
+    'HTTP_ACCEPT' => 'application/xml,application/vnd.wap.xhtml+xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,text/vnd.wap.wml;q=0.6,*/*;q=0.5,UC/145,plugin/1,alipay/un'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => '192.168.0.101'
+    'SERVER_ADDR' => '192.168.0.101'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.0.103'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '46899'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820220.263
+    'REQUEST_TIME' => 1433820220
+]
+2015-06-09 03:31:07 [::1][-][d52u1e5dk9flr5rokc3m1fk0s6][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 15280 bytes' 
+
+in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\myenv\\apache...', 86, Array)
+#1 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('C:\\myenv\\apache...', Array)
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2015-06-09 03:31:07 [::1][-][d52u1e5dk9flr5rokc3m1fk0s6][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '1366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433820667.577
+    'REQUEST_TIME' => 1433820667
+]
+2015-06-09 04:08:01 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\CountryController' in file: C:\myenv\apache\htdocs\yii2_advanced/frontend/controllers/CountryController.php. Namespace missing?' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\\contro...')
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('country')
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('country/index')
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2015-06-09 04:08:01 [::1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'd52u1e5dk9flr5rokc3m1fk0s6'
+    '_csrf' => '713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=d52u1e5dk9flr5rokc3m1fk0s6; _csrf=713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '1645'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=country%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433822881.747
+    'REQUEST_TIME' => 1433822881
+]
+2015-06-09 04:09:39 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\CountrySearch' in file: C:\myenv\apache\htdocs\yii2_advanced/frontend/models/CountrySearch.php. Namespace missing?' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\CountryController.php(35): spl_autoload_call('frontend\\models...')
+#2 [internal function]: frontend\controllers\CountryController->actionIndex()
+#3 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2015-06-09 04:09:38 [::1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'd52u1e5dk9flr5rokc3m1fk0s6'
+    '_csrf' => '713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=d52u1e5dk9flr5rokc3m1fk0s6; _csrf=713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '1653'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=country%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433822978.836
+    'REQUEST_TIME' => 1433822978
+]
+2015-06-09 04:10:06 [::1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\models\Country' in file: C:\myenv\apache\htdocs\yii2_advanced/frontend/models/Country.php. Namespace missing?' in C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#1 C:\myenv\apache\htdocs\yii2_advanced\frontend\models\CountrySearch.php(14): spl_autoload_call('frontend\\models...')
+#2 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\BaseYii.php(288): include('C:\\myenv\\apache...')
+#3 [internal function]: yii\BaseYii::autoload('frontend\\models...')
+#4 C:\myenv\apache\htdocs\yii2_advanced\frontend\controllers\CountryController.php(35): spl_autoload_call('frontend\\models...')
+#5 [internal function]: frontend\controllers\CountryController->actionIndex()
+#6 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('country/index', Array)
+#10 C:\myenv\apache\htdocs\yii2_advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\myenv\apache\htdocs\yii2_advanced\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2015-06-09 04:10:06 [::1][-][-][info][application] $_GET = [
+    'r' => 'country/index'
+]
+
+$_COOKIE = [
+    'aSj_visitedfid' => '2'
+    'aSj_cookietime' => '2592000'
+    'aSj_auth' => 'FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ'
+    'aSj_smile' => '1D1'
+    'aSj_sid' => 'DNy4mN'
+    'lang' => 'fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a:2:{i:0;s:4:\"lang\";i:1;s:5:\"zh-CN\";}'
+    'PHPSESSID' => 'd52u1e5dk9flr5rokc3m1fk0s6'
+    '_csrf' => '713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.95 Safari/537.36 SE 2.X MetaSr 1.0'
+    'HTTP_DNT' => '1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'aSj_visitedfid=2; aSj_cookietime=2592000; aSj_auth=FizWHX07n0GvX9bOpG9cPjvftT2vgrwpMrutZQ2zkUWzJx0NpZv5rPCDQQ; aSj_smile=1D1; aSj_sid=DNy4mN; lang=fe78e778b92a7e7724f108cc2ea176bcff0611c88a853268e7fff3b97c6aa7a6a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22lang%22%3Bi%3A1%3Bs%3A5%3A%22zh-CN%22%3B%7D; PHPSESSID=d52u1e5dk9flr5rokc3m1fk0s6; _csrf=713904b6104fcc0a64e89258bb9e560a5d7caf608029cdba41a33e4e1ef53602a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22AoWOz3sCyFNcWKSj-wH_4Wp6nmtRfSMY%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\AMD APP\\bin\\x86_64;C:\\Program Files (x86)\\AMD APP\\bin\\x86;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\myenv\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win64) PHP/5.6.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/myenv/apache/htdocs'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/myenv/apache/htdocs/yii2_advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '1659'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=country%2Findex'
+    'REQUEST_URI' => '/yii2_advanced/frontend/web/index.php?r=country%2Findex'
+    'SCRIPT_NAME' => '/yii2_advanced/frontend/web/index.php'
+    'PHP_SELF' => '/yii2_advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1433823006.543
+    'REQUEST_TIME' => 1433823006
+]
